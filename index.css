@@ -1,0 +1,86 @@
+/* Styles go here */
+
+#main,#main4{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    background-color:brown;
+      height:900px;
+  }
+  
+  #tea,#puri,#bun,#idly {
+     display:flex;
+    
+    flex-direction:row;
+    align-items:center;
+  }
+  
+  #second>div>p {
+    padding: 0 15 0 15;
+ 
+}
+
+input::-webkit-inner-spin-button, 
+input::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+  #tea > input,#bun>input{
+    width:30px;
+    appearance: none;
+   
+  }
+  #puri>input,#idly>input{
+    width:30px;
+    appearance: none;
+  }
+  
+  #tea0,#puri0,#idly0,#bun0,#total0{
+    display:flex;
+    flex-direction:row;
+     border: 2px soild white;
+     color:white;
+     font-weight: bold;
+  }
+  #sum1,#sum2,#idly1,#idly2,#puri1,#puri2,#bun1,#bun2,#total{
+    margin-left:20px;
+  }
+  #main4>img{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    width:30px;
+    height: 30px;
+  }
+
+  #bf,#lu,#di{
+    padding: 5px 20px 5px 20px;    
+    color: blue;
+    background-color: gainsboro
+
+  }
+  #bf:hover,#lu:hover, #di:hover{
+    background-color: black;
+    color: white;  
+  }
+
+  #eye{
+    display: flex;
+    flex-direction: row;
+  }
+  #eye1{
+    width: 15px;
+    height:15px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+  #user,#password{
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+  }
+  #password{
+    margin-left: -3px;
+  }
