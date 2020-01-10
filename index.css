@@ -42,7 +42,7 @@ input::-webkit-outer-spin-button {
     display:flex;
     flex-direction:row;
      border: 2px soild white;
-     color:white;
+     color:red;  /*  here is the small change*/
      font-weight: bold;
   }
   #sum1,#sum2,#idly1,#idly2,#puri1,#puri2,#bun1,#bun2,#total{
