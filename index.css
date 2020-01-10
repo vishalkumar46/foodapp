@@ -5,8 +5,9 @@
     justify-content:center;
     flex-direction:column;
     align-items:center;
-    background-color:brown;
-      height:900px;
+    background-color:rgb(209, 216, 177);
+    height: 97vh;
+    width: 100vw - 10px;
   }
   
   #tea,#puri,#bun,#idly {
